@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<title>Employee Management System</title>
+<script>
+function show(){
+var name = document.getElementById("name")value;
+var id = document.getElementById("id")value;
+var address = document.getElementById("addr")value;
+if(name&&id&&addr){
+document.getElementById("one").inner text = "Employee Details";
+document.getElementById("two").inner text = "Name"+\n + "name" + \n + "Id" + \n + "id" + \n +"Address" + \n + "addr";
+}
+else{
+document.getElementById("one").inner text = "Employee Details not in system";
+}
+}
+</script>
+</head>
+<body>
+<h2> Employee System </h2>
+<form>
+<table form = "2">
+<tr><td><lable>Employer Name</label></td><td><input type = "text" name size = "30"</td></tr>
+<tr><td><lable>Employer Id</label></td><td><input type = "text" id size = "30"</td></tr>
+<tr><td><lable>Employer Address</label></td><td><input type = "text" addr size = "30"</td></tr>
+<tr><td><input type = "button" value = "submit" onclick = "show()"></td></tr>
+<p in "one"></p>
+<p in "two"></p>
+</body>
+</html>
+
+
